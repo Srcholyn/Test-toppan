@@ -1,0 +1,96 @@
+.btn-signin {
+    position: relative;
+    align-items: center;
+    background: #5E5DF0;
+    box-shadow: #5E5DF0 0 10px 20px -10px;
+    border: 0;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    justify-content: center;
+    min-width: 320px;
+    padding: 10px 15px;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 1;
+    transition: all 1s;
+    margin-bottom: 30px;
+}
+
+.btn-logout{
+    background: #dd4040;
+    border-radius: 20px;
+    box-shadow: #ec5151 0 10px 20px -10px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 8px 18px;
+    margin: 8px 0px 0px 20px;
+    border: 0;
+    transition: all 1s;
+}
+
+.btn-signin:hover {
+    background-position: 0 100%;
+    background: #4040ac;
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(132, 125, 222, 0.5), .125rem .125rem 1rem rgba(52, 70, 127, 0.5);
+}
+.btn-logout:hover {
+    background-position: 0 100%;
+    background: #a22020;
+    box-shadow: 0 0 .25rem rgba(67, 16, 16, 0.5), -.125rem -.125rem 1rem rgba(86, 18, 18, 0.5), .125rem .125rem 1rem rgba(173, 51, 51, 0.5);
+}
+
+.btn-submit {
+    font-weight: bolder;
+    position: relative;
+    align-items: center;
+    background: #5161b8;
+    box-shadow: 0px 4px 11px 1px rgba(140, 176, 238, 0.879), 3px 6px 7px rgba(113, 148, 209, 0.833);
+    border: 0;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    justify-content: center;
+    min-width: 200px;
+    padding: 10px 15px;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 1;
+    transition: all 1s;
+    margin-bottom: 30px;
+}
+
+.btn-submit:hover{
+    background-position: 0 100%;
+    background: #1f1f82;
+}
+
+.btn-export {
+    font-weight: bolder;
+    position: relative;
+    align-items: center;
+    background: #5161b8;
+    box-shadow: 0px 4px 11px 1px rgba(140, 176, 238, 0.879), 3px 6px 7px rgba(113, 148, 209, 0.833);
+    border: 0;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 20px;
+    justify-content: center;
+    min-width: 200px;
+    padding: 10px 15px;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: 1;
+    transition: all 1s;
+    margin: 0px 30px;
+}
+
+.btn-export:hover{
+    background-position: 0 100%;
+    background: #1f1f82;
+}

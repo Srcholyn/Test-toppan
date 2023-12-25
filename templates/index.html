@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="{{ url_for('static', filename='css/index.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/btn.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>IETest</title>
+</head>
+<body class="spectrum-background">
+    <nav>
+        <ul>
+            <li><h2 style="font-weight: bold;">IETest</h2></li>
+        </ul>
+    </nav>
+    <div id="page-wrap">
+        <div class="circle"><i class="material-icons" style="font-size:80px;">person</i></div>
+        <div class="login">
+        <form action="{{ url_for('login')}}" method="post">
+            <div class="form-login">
+                <h1 style="font-weight: bold;">Sign in</h1><hr>
+                <div class="form-group">
+                    <input type="text" name="username" id="username" required>
+                    <label for="username" class="username">Username</label>
+                </div>
+                <div class="form-group">    
+                    <input type="password" name="password" id="password" required>
+                    <label for="password" class="username">password</label>
+                </div>
+                <span class="error">{{message}}</span>
+                <button class="btn-signin" input type="submit">Sign in</button>
+            </div>
+        </form>
+        </div>
+    </div>
+</body>
+</html>

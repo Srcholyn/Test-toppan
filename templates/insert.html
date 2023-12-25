@@ -1,0 +1,24 @@
+{% block content %}
+<div class="wrap-upload" id="upload-wrap">
+        <form id="upload-file" method="post" enctype="multipart/form-data">
+            <div class="upload-wrap">
+                <label for="imageUpload">
+                    <div class="file-upload"><i class="material-icons" style="font-size:80px;">upload</i></div>
+                    <h3 id="fileName" style="margin-bottom: 20px;">Choose a file</h3>
+                </label>
+                <input type="file" id="imageUpload" name="file" accept=".csv">
+                <button class="btn-submit" id="btn-submit" type="submit">Submit</button>
+            </div>
+        </form>
+</div>
+<div class="wrap" id="export-wrap" style="overflow-x: auto;">
+    <table id="dataTable"></table>
+    <div class="btn-wrap">
+        <button class="btn-export" id="btn-export">Export to JSON</button>
+        <button class="btn-export" id="btn-upnew">Upload a new file</button>
+    </div>
+</div>
+
+
+
+{% endblock %}
